@@ -1,0 +1,116 @@
+body { 
+font-family: 'Oxygen', sans-serif;
+background-color: #c6c6d0;
+font-size: 16px;
+}
+#header-nav { 
+background-color: #1b1b1b;
+border-radius: 0;
+border: 0;
+}
+.navbar-brand { 
+    padding-top: 25px;
+}
+.navbar-brand h1{ 
+    font-size: 3em;
+    font-family: 'Lora', serif;
+    margin: 0px 0px 0px 0px;
+    line-height: 0.15;
+    text-transform: uppercase;
+    color: #c6c6d0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus, a { 
+    text-decoration: none;
+}
+#nav-list { 
+font-size: 1.5em;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+
+}
+
+
+/** Main Contents  **/ 
+#ourmenu.div { 
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+#chicken, #beef, #pork { 
+    height: auto;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid black;
+    color: white;
+    margin-bottom: 20px;
+}
+#chicken h3, #beef h3, #pork h3 { 
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 0px;
+    background-color: #413c3c;
+    margin-bottom: 5px;
+}
+#chicken p, #beef p, #pork p{ 
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+#menu-tiles div div { 
+    background-color: #413c3c;
+}
+h3 { 
+    background-size: 50px;
+}
+
+
+/** Media Queries **/ 
+/** Large Screen  **/ 
+@media screen and (max-width: 1200) { 
+   
+}
+/** Medium Screen  **/ 
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+ 
+}
+/** Small Screen  **/ 
+@media screen and (min-width:768px) and (max-width: 991px)  { 
+    #chicken h3, #beef h3, #pork h3 { 
+        text-align: center;
+        padding-top: 5px;
+        margin-top: 0px;
+        background-color: #413c3c;
+        margin-bottom: 5px;
+    }
+    #chicken p, #beef p, #pork p{ 
+        text-align: left;
+        padding-right: 0px;
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin: 0px auto 15px;
+    }
+}
+/** Extra Small Screen Screen  **/ 
+@media screen and (max-width: 767px) { 
+    #chicken h3, #beef h3, #pork h3 { 
+        text-align: center;
+        padding-top: 5px;
+        margin-top: 0px;
+        background-color: #413c3c;
+        margin-bottom: 5px;
+    }
+    #chicken p, #beef p, #pork p{ 
+        text-align: left;
+        padding-right: 0px;
+        padding-left: 10px;
+        padding-top: 3px;
+        padding-bottom: 5px;
+        margin: 0px auto 15px;
+    }
+}
